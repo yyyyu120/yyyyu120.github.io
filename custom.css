@@ -21,6 +21,10 @@ a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
 .hero-links .contact-icon { width:36px; height:36px; display:grid; place-items:center; flex:0 0 36px; border:1px solid var(--line); border-radius:50%; color:var(--accent); }
 .hero-links .contact-icon:hover { background:#f7f2e8; }
 .contact-icon svg { width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+.hero-links .contact-icon--brand svg { fill:currentColor; stroke:none; }
+.hero-links .contact-icon--github { color:#24292f; }
+.hero-links .contact-icon--scholar { color:#4285f4; }
+.contact-icon--scholar .scholar-cap { fill:#fff; }
 .portrait { width:205px; height:205px; object-fit:cover; border-radius:12px; box-shadow:0 16px 34px rgba(24,31,39,.09); }
 .content-section { padding:44px 0 12px; }
 .content-section h2 { display:inline-block; font-size:25px; line-height:1.25; font-weight:400; margin:0 0 24px; text-decoration:underline; text-decoration-color:#fba524; text-underline-offset:7px; }
