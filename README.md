@@ -14,7 +14,8 @@ Open `http://127.0.0.1:8080/` in a browser.
 
 - Confirm the display name and introductory text.
 - Replace `images/avatar.jpg` if you want a different portrait (the current image is the public GitHub avatar).
-- Confirm the HKUST affiliation shown in the supplied Scholar screenshot; add an email, CV, and Google Scholar link if desired.
+- Confirm the HKUST Ph.D. entry and add degree dates or earlier schools if desired.
+- Add a CV and Google Scholar profile link if desired. The supplied email is already shown on the homepage.
 - Recheck publication details and links.
 - Keep GitHub Pages disabled until the site is ready to be public. GitHub Pages can be public even when this source repository is private.
 
