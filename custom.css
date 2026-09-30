@@ -22,6 +22,7 @@ a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
 .content-section h2 { display:inline-block; font-size:25px; line-height:1.25; font-weight:400; margin:0 0 24px; text-decoration:underline; text-decoration-color:#fba524; text-underline-offset:7px; }
 .education-list { border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
 .education-item { display:flex; align-items:center; gap:20px; padding:20px 0; }
+.education-item + .education-item { border-top:1px solid var(--line); }
 .education-logo { flex:0 0 76px; height:76px; display:grid; place-items:center; border-radius:7px; background:#f2e8d6; color:#6d4b17; font-size:15px; font-weight:700; letter-spacing:.02em; }
 .education-item h3 { margin:0 0 5px; font-size:17px; line-height:1.4; }
 .education-item p { margin:0; color:var(--muted); font-size:14px; }
