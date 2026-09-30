@@ -1,19 +1,21 @@
-# 🧑‍🚀 Personal Homepage Template [[Preview](https://w-r-s.github.io/academic-homepage-template/)]
+# Yuhao Pan — research homepage
 
-This repository is a reusable academic and personal homepage template. The visible profile belongs to a fictional person; names, affiliations, projects, publications, awards, and contact details are sample content only.
+Private draft based on [w-r-s/academic-homepage-template](https://github.com/w-r-s/academic-homepage-template). It is a static website with no build step.
 
-Start locally with:
+## Preview locally
 
 ```bash
 python3 -m http.server 8080 --bind 127.0.0.1
 ```
 
-Before publishing, replace the sample identity and links in `index.html` and the placeholder assets in `images/template/`.
+Open `http://127.0.0.1:8080/` in a browser.
 
-This homepage benefits from many projects and tools, including but not limited to:
+## Before publication
 
-- Claude Code with Opus 4.6
-- CodeX with GPT-5.5
-- Audio-Interaction: https://xzf-thu.github.io/Audio-Interaction/
+- Confirm the display name and introductory text.
+- Replace `images/avatar.jpg` if you want a different portrait (the current image is the public GitHub avatar).
+- Add an affiliation, email, CV, and Google Scholar link if desired.
+- Recheck publication details and links.
+- Keep GitHub Pages disabled until the site is ready to be public. GitHub Pages can be public even when this source repository is private.
 
-> Keep the layout, customize the content, and make it yours.
+The content is sourced from public papers and repositories linked on the homepage. No private project is listed.
