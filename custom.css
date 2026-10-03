@@ -31,6 +31,12 @@ a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
 .news-list { padding-left:2px; margin:0 0 10px; }
 .news-item { padding:9px 0; }
 .news-text { line-height:1.6; }
+.service-list { border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.service-item { display:grid; grid-template-columns:150px minmax(0,1fr); gap:24px; padding:19px 0; }
+.service-item + .service-item { border-top:1px solid var(--line); }
+.service-label { padding-top:3px; color:#8b6812; font-size:11px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
+.service-item p { margin:0; color:var(--muted); font-size:14px; line-height:1.8; }
+.service-item a { color:var(--ink); text-decoration:underline; text-decoration-color:#d5d2ca; text-underline-offset:3px; }
 .publication-list { border-top:1px solid var(--line); }
 .publication-note { margin:-10px 0 20px; color:var(--muted); font-size:13px; }
 .publication { display:grid; grid-template-columns:210px minmax(0,1fr); gap:24px; padding:28px 0; border-bottom:1px solid var(--line); }
@@ -44,5 +50,5 @@ a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
 .publication-links { margin-top:10px; }
 .back-to-top { position:fixed; right:22px; bottom:22px; display:grid; place-items:center; width:38px; height:38px; border-radius:50%; background:rgba(38,45,52,.8); color:white; font-size:22px; box-shadow:0 4px 16px rgba(0,0,0,.15); }
 .back-to-top:hover { color:white; background:#242b31; }
-@media (max-width:680px) { .site-header { align-items:flex-start; flex-direction:column; gap:12px; } .site-header nav { gap:13px 18px; } .hero { grid-template-columns:1fr; gap:26px; padding:40px 0 42px; } .portrait { grid-row:1; width:132px; height:132px; } .publication { grid-template-columns:1fr; gap:18px; } .publication-visual { width:100%; } }
+@media (max-width:680px) { .site-header { align-items:flex-start; flex-direction:column; gap:12px; } .site-header nav { gap:13px 18px; } .hero { grid-template-columns:1fr; gap:26px; padding:40px 0 42px; } .portrait { grid-row:1; width:132px; height:132px; } .service-item { grid-template-columns:1fr; gap:6px; } .publication { grid-template-columns:1fr; gap:18px; } .publication-visual { width:100%; } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .project-card { transition:none; } }
